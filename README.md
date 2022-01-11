@@ -1,22 +1,20 @@
-## RealToNumber
+![RealToNumber][real-to-number-logo]
+# 🔢 RealToNumber
 
 Convert your real(pt-BR) string to float number ou other types.
 
 ## Installation
 
 This is a [Node.js](https://nodejs.org/en/) module available through the
-[npm registry](https://www.npmjs.com/package/realtonumber).
-
-Installation is done using the
-[`npm install` command](https://docs.npmjs.com/getting-started/installing-npm-packages-locally):
+[npm registry][real-to-number-logo-npm].
 
 Use npm:
-```
+```bash
 $ npm install realtonumber
 ```
 
 Use yarn:
-```
+```bash
 $ yarn add realtonumber
 ```
 
@@ -28,7 +26,7 @@ $ yarn add realtonumber
 
 ## Examples
 1. Convert string to float.
-```
+```javascript
 const {realToFloat} = require('realtonumber');
 
 let number = realToFloat('R$ 12.345,67');
@@ -45,7 +43,7 @@ Options:
 
 
 2. Convert string to int.
-```
+```javascript
 const {realToInt} = require('realtonumber');
 
 let number = realToInt('R$ 12.345,67');
@@ -61,6 +59,10 @@ Options:
 - useDecimal: boolean > When you active this option, your number remove ',' and use 2 number after.
 
 
-## License
+****
+This project is under the MIT license. See the [LICENSE][license-link] file for more details
 
-  [MIT](LICENSE)
+<!-- Markdown link & img's -->
+[license-link]: /LICENSE
+[real-to-number-logo]: https://i.imgur.com/eb9Cxqe.png
+[real-to-number-logo-npm]: https://www.npmjs.com/package/cowmmand
